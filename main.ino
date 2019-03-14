@@ -58,7 +58,7 @@ void loop() {
   Serial.println(pos);
 }
 
-void moteu_TEN(int valeur){
+void moteur_TEN(int valeur){
   if(valeur>0){
     digitalWrite(BI1_TEN,0);
     digitalWrite(BI2_TEN,1);
